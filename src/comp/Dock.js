@@ -18,10 +18,10 @@ let Dock = ({ tag }) => {
 				console.log('menu');
 			}}/>
 			<Icon tag={tag} image={inst} action={function () {
-				console.log('inst');
+				console.log('instagram');
 			}}/>
 			<Icon tag={tag} image={twi} action={function () {
-				console.log('twi');
+				console.log('twitter');
 			}}/>
 			<Icon tag={tag} image={youtube} action={function () {
 				console.log('youtube');
@@ -30,7 +30,7 @@ let Dock = ({ tag }) => {
 				console.log('github');
 			}}/>
 			<Icon tag={tag} image={dis} action={function () {
-				console.log('dis');
+				console.log('discord');
 			}}/>
 			{/* <Icon tag={tag} image={vk} action={function () {
 				console.log('vk');

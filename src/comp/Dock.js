@@ -8,6 +8,7 @@ import twi from './images/twi.webp';
 import youtube from './images/youtube.webp';
 import github from './images/github.webp';
 import inst from './images/inst.webp';
+import dis from './images/dis.webp';
 // import vk from './images/vk.jpg';
 
 let Dock = ({ tag }) => {
@@ -15,6 +16,9 @@ let Dock = ({ tag }) => {
 		<div className={tag + 'Dock'}>
 			<Icon tag={tag} image={im_4} action={function () {
 				console.log('menu');
+			}}/>
+			<Icon tag={tag} image={inst} action={function () {
+				console.log('inst');
 			}}/>
 			<Icon tag={tag} image={twi} action={function () {
 				console.log('twi');
@@ -25,8 +29,8 @@ let Dock = ({ tag }) => {
 			<Icon tag={tag} image={github} action={function () {
 				console.log('github');
 			}}/>
-			<Icon tag={tag} image={inst} action={function () {
-				console.log('inst');
+			<Icon tag={tag} image={dis} action={function () {
+				console.log('dis');
 			}}/>
 			{/* <Icon tag={tag} image={vk} action={function () {
 				console.log('vk');

@@ -1,0 +1,17 @@
+.userName {
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+/* .DockContainer {} */
+
+.PanelMenu {
+	color: #fff;
+	background-color: #303030;
+	border-radius: 15px;
+	padding: 10px;
+	width: 400px;
+	height: 250px;
+	margin-bottom: 10px;
+  margin-left: -175px;
+}

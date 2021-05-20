@@ -1,0 +1,10 @@
+.NotIcon img {
+  transition: 0.3s;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 15px;
+}
+.NotIcon:hover img {
+  cursor: pointer;
+}
